@@ -39,7 +39,7 @@ class Modal extends Component {
       >
         <div className="modalMain">
           <div className="header">
-            <div className="title">Modal Title</div>
+            <div className="title">{this.props.title}</div>
             <div className="closeButton" onClick={this.props.closeModal}>X</div>
           </div>
           <div className="body">
