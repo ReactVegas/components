@@ -22,6 +22,7 @@ class App extends Component {
         <Modal
           closeModal={this.closeModal}
           shouldShowModal={this.state.shouldShowModal}
+          title="React Vegas Modal"
         >
           This is some modal text
         </Modal>
